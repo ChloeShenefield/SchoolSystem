@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\gmrur\Revature\2005-may19-richard\Side Projects\practice\flask react\react-flask-app\api\venv
+set VIRTUAL_ENV=C:\Users\gmrur\Programming\Python\ProjectTwo\SchoolSystem\react-flask-app\api\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

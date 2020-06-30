@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import PersonList from './Components/PersonList';
-import PersonInput from './Components/PersonInput';
+import AddUser from './Components/AddUser';
 import PersonDelete from './Components/PersonDelete';
 
 class  App extends Component {
@@ -13,9 +13,11 @@ class  App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           
-          <PersonInput />
-          <PersonDelete />
+          <AddUser />
+          {/*
+          <PersonDelete /> 
           <PersonList />
+          */}
         </header>
       </div>
     );
